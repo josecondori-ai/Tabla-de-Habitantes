@@ -1,0 +1,116 @@
+/* Reset general para evitar márgenes y padding predeterminados */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos básicos del cuerpo */
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* Mejora la legibilidad */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Nuevo gradiente de color */
+    color: #444; /* Color de texto predeterminado */
+}
+
+/* Estilos de la tabla */
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la tabla vertical y horizontalmente */
+    background-color: #ffffff; /* Fondo blanco para la tabla */
+    border-radius: 4px; /* Bordes redondeados */
+    border-collapse: collapse; /* Colapsa los bordes */
+    margin: 0 auto; /* Centra la tabla automáticamente */
+    max-width: 60rem; /* Ancho máximo de la tabla */
+    width: 100%; /* Tabla ocupa el 100% del espacio disponible */
+    font-size: 14px;
+    overflow: hidden;
+    padding: 5px; /* Espaciado interno de la tabla */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
+
+/* Estilos de los encabezados de la tabla (th) */
+th {
+    background-color: #222222; /* Fondo oscuro para los encabezados */
+    color: #ffffff; /* Texto blanco */
+    font-size: 16px;
+    font-weight: 400; /* Peso de fuente normal */
+    padding: 16px 24px; /* Espaciado interno */
+    text-align: center; /* Centrado del texto */
+    vertical-align: middle; /* Centra verticalmente el contenido */
+    border-bottom: 4px solid #eeeeee; /* Borde inferior claro */
+    border-right: 1px solid #333333; /* Borde derecho */
+}
+
+/* Bordes redondeados para las esquinas superiores de la tabla */
+th:first-child {
+    border-top-left-radius: 4px;
+}
+
+th:last-child {
+    border-top-right-radius: 4px;
+    border-right: none; /* Elimina el borde derecho del último encabezado */
+}
+
+/* Estilos para las filas de la tabla (tr) */
+tr {
+    border-top: 1px solid #eeeeee; /* Borde superior claro */
+    font-size: 16px;
+    font-weight: normal; /* Peso de fuente normal */
+}
+
+/* Elimina el borde superior de la primera fila */
+tr:first-child {
+    border-top: none;
+}
+
+/* Elimina el borde inferior de la última fila */
+tr:last-child {
+    border-bottom: none;
+}
+
+/* Aplica un color de fondo alternativo a las filas impares */
+tr:nth-child(odd) td {
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+/* Efecto de opacidad al hacer hover sobre una fila */
+tbody:hover tr:not(:hover) td {
+    opacity: 0.24; /* Atenúa las filas que no están en hover */
+}
+
+/* Bordes redondeados para la última fila */
+tr:last-child td:first-child {
+    border-bottom-left-radius: 4px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 4px;
+}
+
+/* Estilos para las celdas de la tabla (td) */
+td {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 24px; /* Espaciado interno amplio */
+    text-align: center; /* Centra el contenido horizontalmente */
+    vertical-align: middle; /* Centra el contenido verticalmente */
+    border-right: 1px solid #eeeeee; /* Borde derecho claro */
+    transition: opacity 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955); /* Transición suave de opacidad */
+}
+
+/* Elimina el borde derecho de la última celda en cada fila */
+td:last-child {
+    border-right: none;
+}
+
+/* Clases para valores positivos y negativos */
+.negative {
+    color: #FF4136; /* Color rojo para valores negativos */
+}
+
+.positive {
+    color: #2ECC40; /* Color verde para valores positivos */
+}
