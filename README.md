@@ -1,6 +1,10 @@
 # 🌍 Proyecto de Tabla de Habitantes
 
 
+
+https://github.com/user-attachments/assets/cefb4930-ccfa-438e-9a17-583ccb7a98b1
+
+
 ## 📖 Visión General
 
 Este proyecto es una aplicación web que muestra una tabla de habitantes, incluyendo información relevante sobre su población. Utiliza HTML y CSS para brindar una interfaz de usuario intuitiva y atractiva.
@@ -18,7 +22,7 @@ Este proyecto es una aplicación web que muestra una tabla de habitantes, incluy
 
 ## 💻 Demostración
 
-Puedes ver una demostración en vivo de la aplicación [aquí](https://link-a-tu-demostracion.com](https://josecondori-ai.github.io/Tabla-de-Habitantes/). 
+Puedes ver una demostración en vivo de la aplicación [aquí](https://josecondori-ai.github.io/Tabla-de-Habitantes/). 
 
 ## 🚀 Cómo Usar
 1.  Clona el repositorio:
